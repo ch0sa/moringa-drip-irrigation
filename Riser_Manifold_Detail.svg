@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4200 2800" width="4200" height="2800" style="background:#0B2545; font-family:'Courier New', Courier, monospace;">
+<defs>
+  <pattern id="grid10_s2" width="50" height="50" patternUnits="userSpaceOnUse">
+    <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(255, 255, 255, 0.07)" stroke-width="1"/>
+  </pattern>
+  <pattern id="grid50_s2" width="250" height="250" patternUnits="userSpaceOnUse">
+    <rect width="250" height="250" fill="url(#grid10_s2)" />
+    <path d="M 250 0 L 0 0 0 250" fill="none" stroke="rgba(255, 255, 255, 0.16)" stroke-width="1.5"/>
+  </pattern>
+  <pattern id="groundHatch" width="40" height="40" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#BAE6FD" stroke-width="1" opacity="0.25"/>
+  </pattern>
+  <marker id="arrow_s2" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#BAE6FD" />
+  </marker>
+  <marker id="dot_s2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6">
+    <circle cx="5" cy="5" r="3.5" fill="#BAE6FD" stroke="#0B2545" stroke-width="1"/>
+  </marker>
+</defs>
+<rect width="4200" height="2800" fill="#0B2545"/>
+<rect width="4200" height="2800" fill="url(#grid50_s2)"/>
+<rect x="120" y="80" width="3960" height="2640" fill="none" stroke="#FFFFFF" stroke-width="5"/>
+<rect x="145" y="105" width="3910" height="2590" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+<g transform="translate(180, 160)">
+  <text x="0" y="0" fill="#FFFFFF" font-size="32" font-weight="bold" letter-spacing="2">4-FOOT OVERHEAD DOUBLE-TEE RISER MANIFOLD — DETAIL ELEVATION</text>
+  <text x="0" y="28" fill="#BAE6FD" font-size="16" letter-spacing="1">SHEET 2 OF 2 : SIDE-ELEVATION CROSS-SECTION (WAIST-HEIGHT DUAL CONTROLS)</text>
+</g>
+<g transform="translate(1950, 125)">
+  <rect x="0" y="0" width="1550" height="66" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="5"/>
+  <text x="16" y="26" fill="#BAE6FD" font-size="13" font-weight="bold">PLOT A RISER: 2" RISER + 2x 50MM BALL VALVES + 1.5" DROPS TO 1.5" SUBLINE</text>
+  <text x="16" y="50" fill="#BAE6FD" font-size="13" font-weight="bold">PLOT B RISER: 2" RISER + 2x 40MM BALL VALVES + 1.25" DROPS TO 1.25" SUBLINE</text>
+</g>
+<g transform="translate(3650, 160)">
+  <rect x="0" y="-20" width="260" height="42" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/>
+  <text x="130" y="6" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="middle">SCALE: 1 FT = 60 PX</text>
+</g>
+<g id="GROUND_AND_TRENCHES">
+  <!-- Hatching below Grade Line -->
+  <rect x="500" y="1400" width="3200" height="500" fill="url(#groundHatch)" opacity="0.3"/>
+
+  <!-- Finished Ground Level Line (0.00' Elev) -->
+  <line x1="500" y1="1400" x2="3700" y2="1400" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="14 6"/>
+  <g><rect x="510.8" y="1366.0" width="338.3" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="680.0" y="1385.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="middle">FINISHED GROUND LEVEL (0.00' ELEVATION)</text></g>
+
+  <!-- Mainline Trench Excavation Profile (-2'-6" Depth) -->
+  <path d="M 1980,1400 L 1980,1700 L 2220,1700 L 2220,1400" fill="none" stroke="#BAE6FD" stroke-width="2" stroke-dasharray="6 4"/>
+  <g><rect x="1983.8" y="1711.0" width="232.3" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="2100.0" y="1730.0" fill="#FFFFFF" font-size="12" font-weight="bold" text-anchor="middle">MAINLINE TRENCH BED (-2'-6")</text></g>
+
+  <!-- South Subline Trench Excavation (-2'-0" Depth) -->
+  <path d="M 940,1400 L 940,1640 L 1530,1640 L 1530,1400" fill="none" stroke="#BAE6FD" stroke-width="2" stroke-dasharray="6 4"/>
+  <g><rect x="1090.2" y="1651.0" width="269.5" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="1225.0" y="1670.0" fill="#FFFFFF" font-size="12" font-weight="bold" text-anchor="middle">SOUTH SUBLINE TRENCH BED (-2'-0")</text></g>
+
+  <!-- North Subline Trench Excavation (-2'-0" Depth) -->
+  <path d="M 2670,1400 L 2670,1640 L 3260,1640 L 3260,1400" fill="none" stroke="#BAE6FD" stroke-width="2" stroke-dasharray="6 4"/>
+  <g><rect x="2840.2" y="1651.0" width="269.5" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="2975.0" y="1670.0" fill="#FFFFFF" font-size="12" font-weight="bold" text-anchor="middle">NORTH SUBLINE TRENCH BED (-2'-0")</text></g>
+</g>
+<g id="PIPES_AND_MANIFOLD">
+  <!-- BURIED 2" MAINLINE PIPE -->
+  <circle cx="2100" cy="1660" r="32" fill="#0B2545" stroke="#FFFFFF" stroke-width="4.5"/>
+  <circle cx="2100" cy="1660" r="22" fill="#0B2545" stroke="#BAE6FD" stroke-width="2"/>
+  <circle cx="2100" cy="1660" r="6" fill="#FFFFFF"/>
+
+  <!-- BURIED 2" EQUAL TEE -->
+  <rect x="2072" y="1615" width="56" height="40" fill="#0B2545" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="2072" y1="1635" x2="2128" y2="1635" stroke="#BAE6FD" stroke-width="1.5"/>
+
+  <!-- 4-FOOT VERTICAL 2" PVC RISER PIPE -->
+  <rect x="2078" y="920" width="44" height="695" fill="#0B2545" stroke="#FFFFFF" stroke-width="4.5"/>
+  <line x1="2100" y1="920" x2="2100" y2="1615" stroke="#BAE6FD" stroke-width="1.5" stroke-dasharray="8 6"/>
+
+  <!-- OVERHEAD 2" EQUAL DOUBLE-TEE -->
+  <rect x="2060" y="885" width="80" height="70" rx="8" fill="#0B2545" stroke="#FFFFFF" stroke-width="4"/>
+  <circle cx="2100" cy="920" r="18" fill="#FFFFFF"/>
+  <circle cx="2100" cy="920" r="8" fill="#0B2545"/>
+
+  <!-- ==================== SOUTH WING (LEFT SIDE) ==================== -->
+  <line x1="2060" y1="920" x2="1920" y2="920" stroke="#FFFFFF" stroke-width="4.5"/>
+
+  <!-- Reducer -->
+  <polygon points="1920,894 1860,902 1860,938 1920,946" fill="#0B2545" stroke="#E0F2FE" stroke-width="3"/>
+
+  <!-- Ball Valve -->
+  <rect x="1720" y="895" width="140" height="50" rx="6" fill="#0B2545" stroke="#E0F2FE" stroke-width="3"/>
+  <polygon points="1740,900 1840,940 1740,940 1840,900" fill="#0B2545" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="1790" cy="920" r="9" fill="#FFFFFF"/>
+  <rect x="1775" y="860" width="70" height="18" rx="4" fill="#FFFFFF" stroke="#0B2545" stroke-width="2"/>
+  <line x1="1790" y1="895" x2="1790" y2="870" stroke="#FFFFFF" stroke-width="4"/>
+
+  <!-- Horizontal Pipe to Overhead Elbow -->
+  <line x1="1720" y1="920" x2="1450" y2="920" stroke="#E0F2FE" stroke-width="3.5"/>
+  <rect x="1420" y="890" width="60" height="60" rx="8" fill="#0B2545" stroke="#E0F2FE" stroke-width="3"/>
+  <circle cx="1450" cy="920" r="12" fill="#E0F2FE"/>
+
+  <!-- Vertical Drop Pipe -->
+  <rect x="1432" y="950" width="36" height="650" fill="#0B2545" stroke="#E0F2FE" stroke-width="3.5"/>
+  <line x1="1450" y1="950" x2="1450" y2="1600" stroke="#BAE6FD" stroke-width="1" stroke-dasharray="6 4"/>
+
+  <!-- Trench Elbow -->
+  <rect x="1420" y="1585" width="60" height="55" rx="8" fill="#0B2545" stroke="#E0F2FE" stroke-width="3"/>
+  <circle cx="1450" cy="1613" r="12" fill="#E0F2FE"/>
+
+  <!-- Subline Running South -->
+  <line x1="1420" y1="1613" x2="1000" y2="1613" stroke="#E0F2FE" stroke-width="3.5"/>
+
+  <!-- Flush Valve South -->
+  <rect x="975" y="1400" width="50" height="240" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="965" y="1392" width="70" height="16" rx="3" fill="#0B2545" stroke="#BAE6FD" stroke-width="2"/>
+  <circle cx="1000" cy="1613" r="16" fill="#0B2545" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="1000" cy="1613" r="8" fill="#E0F2FE"/>
+
+  <!-- ==================== NORTH WING (RIGHT SIDE) ==================== -->
+  <line x1="2140" y1="920" x2="2280" y2="920" stroke="#FFFFFF" stroke-width="4.5"/>
+
+  <!-- Reducer -->
+  <polygon points="2280,894 2340,902 2340,938 2280,946" fill="#0B2545" stroke="#E0F2FE" stroke-width="3"/>
+
+  <!-- Ball Valve -->
+  <rect x="2340" y="895" width="140" height="50" rx="6" fill="#0B2545" stroke="#E0F2FE" stroke-width="3"/>
+  <polygon points="2360,900 2460,940 2360,940 2460,900" fill="#0B2545" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="2410" cy="920" r="9" fill="#FFFFFF"/>
+  <rect x="2355" y="860" width="70" height="18" rx="4" fill="#FFFFFF" stroke="#0B2545" stroke-width="2"/>
+  <line x1="2410" y1="895" x2="2410" y2="870" stroke="#FFFFFF" stroke-width="4"/>
+
+  <!-- Horizontal Pipe to Overhead Elbow -->
+  <line x1="2480" y1="920" x2="2750" y2="920" stroke="#E0F2FE" stroke-width="3.5"/>
+  <rect x="2720" y="890" width="60" height="60" rx="8" fill="#0B2545" stroke="#E0F2FE" stroke-width="3"/>
+  <circle cx="2750" cy="920" r="12" fill="#E0F2FE"/>
+
+  <!-- Vertical Drop Pipe -->
+  <rect x="2732" y="950" width="36" height="650" fill="#0B2545" stroke="#E0F2FE" stroke-width="3.5"/>
+  <line x1="2750" y1="950" x2="2750" y2="1600" stroke="#BAE6FD" stroke-width="1" stroke-dasharray="6 4"/>
+
+  <!-- Trench Elbow -->
+  <rect x="2720" y="1585" width="60" height="55" rx="8" fill="#0B2545" stroke="#E0F2FE" stroke-width="3"/>
+  <circle cx="2750" cy="1613" r="12" fill="#E0F2FE"/>
+
+  <!-- Subline Running North -->
+  <line x1="2780" y1="1613" x2="3200" y2="1613" stroke="#E0F2FE" stroke-width="3.5"/>
+
+  <!-- Flush Valve North -->
+  <rect x="3175" y="1400" width="50" height="240" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="3165" y="1392" width="70" height="16" rx="3" fill="#0B2545" stroke="#BAE6FD" stroke-width="2"/>
+  <circle cx="3200" cy="1613" r="16" fill="#0B2545" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="3200" cy="1613" r="8" fill="#E0F2FE"/>
+</g>
+<g id="LEFT_CALLOUT_COLUMN">
+  <!-- 2"x1.5" / 2"x1.25" Reducer -->
+  <line x1="1890" y1="900" x2="720" y2="760" stroke="#BAE6FD" stroke-width="1.2" marker-start="url(#dot_s2)"/>
+  <g><rect x="466.4" y="746.0" width="233.6" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="690.0" y="765.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="end">2"x1.5" / 2"x1.25" Reducer</text></g>
+
+  <!-- 50mm / 40mm Ball Valve -->
+  <line x1="1790" y1="920" x2="720" y2="920" stroke="#BAE6FD" stroke-width="1.2" marker-start="url(#dot_s2)"/>
+  <g><rect x="498.7" y="906.0" width="201.3" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="690.0" y="925.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="end">50mm / 40mm Ball Valve</text></g>
+
+  <!-- 1.5" / 1.25" Elbow & 4' Drop -->
+  <line x1="1450" y1="1160" x2="720" y2="1160" stroke="#BAE6FD" stroke-width="1.2" marker-start="url(#dot_s2)"/>
+  <g><rect x="418.1" y="1146.0" width="281.9" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="690.0" y="1165.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="end">1.5" / 1.25" Elbow &amp;amp; 4' Drop</text></g>
+
+  <!-- 1.5" / 1.25" Subline -->
+  <line x1="1290" y1="1613" x2="720" y2="1420" stroke="#BAE6FD" stroke-width="1.2" marker-start="url(#dot_s2)"/>
+  <g><rect x="514.8" y="1406.0" width="185.2" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="690.0" y="1425.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="end">1.5" / 1.25" Subline</text></g>
+
+  <!-- 50mm / 40mm Flush Valve -->
+  <line x1="1000" y1="1613" x2="720" y2="1613" stroke="#BAE6FD" stroke-width="1.2" marker-start="url(#dot_s2)"/>
+  <g><rect x="490.6" y="1599.0" width="209.4" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="690.0" y="1618.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="end">50mm / 40mm Flush Valve</text></g>
+</g>
+<g id="RIGHT_CALLOUT_COLUMN">
+  <!-- 2" Overhead Tee -->
+  <line x1="2140" y1="900" x2="3380" y2="760" stroke="#BAE6FD" stroke-width="1.2" marker-start="url(#dot_s2)"/>
+  <g><rect x="3400.0" y="746.0" width="144.9" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="3410.0" y="765.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="start">2" Overhead Tee</text></g>
+
+  <!-- 4' Vertical 2" Riser -->
+  <line x1="2122" y1="1160" x2="3380" y2="1160" stroke="#BAE6FD" stroke-width="1.2" marker-start="url(#dot_s2)"/>
+  <g><rect x="3400.0" y="1146.0" width="185.2" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="3410.0" y="1165.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="start">4' Vertical 2" Riser</text></g>
+
+  <!-- 2" Buried Tee -->
+  <line x1="2128" y1="1635" x2="3380" y2="1420" stroke="#BAE6FD" stroke-width="1.2" marker-start="url(#dot_s2)"/>
+  <g><rect x="3400.0" y="1406.0" width="128.8" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="3410.0" y="1425.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="start">2" Buried Tee</text></g>
+
+  <!-- 2" Mainline -->
+  <line x1="2132" y1="1660" x2="3380" y2="1660" stroke="#BAE6FD" stroke-width="1.2" marker-start="url(#dot_s2)"/>
+  <g><rect x="3400.0" y="1646.0" width="112.7" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="3410.0" y="1665.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="start">2" Mainline</text></g>
+
+  <!-- North Flush Valve -->
+  <line x1="3200" y1="1613" x2="3380" y2="1820" stroke="#BAE6FD" stroke-width="1.2" marker-start="url(#dot_s2)"/>
+  <g><rect x="3400.0" y="1806.0" width="273.9" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="3410.0" y="1825.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="start">50mm / 40mm Flush Valve (North)</text></g>
+</g>
+<g id="ELEVATION_DIMENSIONS">
+  <!-- Dimension: Grade Level to Overhead (+4'-0") -->
+  <line x1="2190" y1="1400" x2="2190" y2="920" stroke="#BAE6FD" stroke-width="1.5" marker-start="url(#arrow_s2)" marker-end="url(#arrow_s2)"/>
+  <g><rect x="2210.0" y="1146.0" width="265.8" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="2220.0" y="1165.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="start">+4'-0" (Overhead Waist Height)</text></g>
+
+  <!-- Dimension: Grade Level down to Subline Trench (-2'-0") -->
+  <line x1="1500" y1="1400" x2="1500" y2="1640" stroke="#BAE6FD" stroke-width="1.5" marker-start="url(#arrow_s2)" marker-end="url(#arrow_s2)"/>
+  <g><rect x="1520.0" y="1506.0" width="201.3" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="1530.0" y="1525.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="start">-2'-0" (Subline Depth)</text></g>
+
+  <!-- Dimension: Grade Level down to Mainline Trench (-2'-6") -->
+  <line x1="2010" y1="1400" x2="2010" y2="1700" stroke="#BAE6FD" stroke-width="1.5" marker-start="url(#arrow_s2)" marker-end="url(#arrow_s2)"/>
+  <g><rect x="1780.6" y="1536.0" width="209.4" height="28" fill="#0B2545" stroke="#BAE6FD" stroke-width="1.2" rx="4"/><text x="1980.0" y="1555.0" fill="#FFFFFF" font-size="13" font-weight="bold" text-anchor="end">-2'-6" (Mainline Depth)</text></g>
+</g>
+<g id="FOOTER_BAR_S2">
+  <rect x="145" y="2650" width="3910" height="45" fill="#0B2545" stroke="#FFFFFF" stroke-width="1.5"/>
+  <text x="2100" y="2679" fill="#FFFFFF" font-size="16" font-weight="bold" letter-spacing="1.5" text-anchor="middle">2-ACRE MORINGA DRIP LAYOUT  |  SHEET 2: 4' OVERHEAD RISER MANIFOLD DETAIL  |  SCALE: 1 FT = 60 PX</text>
+</g>
+</svg>
