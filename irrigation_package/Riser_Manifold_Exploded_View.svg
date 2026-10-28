@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 950" width="1400" height="950" style="background:#0f172a; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="pvcBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="30%" stop-color="#3b82f6"/>
+      <stop offset="70%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="pvcGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="30%" stop-color="#10b981"/>
+      <stop offset="70%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="pvcOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="30%" stop-color="#f97316"/>
+      <stop offset="70%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="valveRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b91c1c"/>
+      <stop offset="50%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78350f" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#451a03" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- TITLE BLOCK -->
+  <rect x="40" y="30" width="1320" height="90" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="70" y="70" fill="#38bdf8" font-size="26" font-weight="bold" letter-spacing="1">4-FOOT OVERHEAD DOUBLE-TEE RISER MANIFOLD</text>
+  <text x="70" y="100" fill="#94a3b8" font-size="15">ENGINEERING ISOMETRIC &amp; EXPLODED ASSEMBLY VIEW — ARTCRAFT VECTORCRAFT SPECIFICATION</text>
+  <rect x="1100" y="48" width="230" height="54" rx="8" fill="#0f172a" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="1115" y="72" fill="#38bdf8" font-size="13" font-weight="bold">WAIST-HEIGHT MANIFOLD</text>
+  <text x="1115" y="92" fill="#e2e8f0" font-size="12">Elevation: +4'-0" (1.22m)</text>
+
+  <!-- GROUND GRADE LINE -->
+  <rect x="60" y="520" width="1280" height="380" fill="url(#groundGrad)"/>
+  <line x1="60" y1="520" x2="1340" y2="520" stroke="#f59e0b" stroke-width="3" stroke-dasharray="10 5"/>
+  <text x="80" y="510" fill="#fbbf24" font-size="14" font-weight="bold">▲ FINISHED GROUND LEVEL (GRADE 0.00')</text>
+  <text x="80" y="545" fill="#f59e0b" font-size="13">▼ BURIED TRENCH ZONE (-2'-0" Sublines / -2'-6" Mainline)</text>
+
+  <!-- CENTRAL VERTICAL AXIS (EXPLODED PIPELINE) -->
+  <!-- 1. Buried 2" Mainline Pipe -->
+  <g transform="translate(680, 800)" filter="url(#shadow)">
+    <rect x="-240" y="-18" width="480" height="36" rx="6" fill="url(#pvcBlue)" stroke="#60a5fa" stroke-width="1.5"/>
+    <text x="0" y="6" fill="#ffffff" font-size="15" font-weight="bold" text-anchor="middle">2" (63mm) PVC MAINLINE (CLASS 2)</text>
+    <text x="0" y="28" fill="#93c5fd" font-size="12" text-anchor="middle">Flow Velocity: 1.15 m/s | Trench Depth: 2'-6"</text>
+  </g>
+
+  <!-- 2. Buried 2" Tee (Exploded Up) -->
+  <g transform="translate(680, 710)" filter="url(#shadow)">
+    <path d="M-30,-20 L30,-20 L30,-5 L20,-5 L20,20 L-20,20 L-20,-5 L-30,-5 Z" fill="#2563eb" stroke="#93c5fd" stroke-width="2"/>
+    <circle cx="0" cy="-5" r="14" fill="#1d4ed8"/>
+    <text x="60" y="0" fill="#38bdf8" font-size="14" font-weight="bold">① BURIED 2" PVC EQUAL TEE</text>
+    <text x="60" y="20" fill="#94a3b8" font-size="12">Glued into mainline pointing vertically (+Z)</text>
+    <line x1="45" y1="0" x2="15" y2="-5" stroke="#38bdf8" stroke-width="1.5"/>
+  </g>
+
+  <!-- 3. Vertical 2" Riser Pipe -->
+  <g transform="translate(680, 520)" filter="url(#shadow)">
+    <rect x="-16" y="-140" width="32" height="260" rx="4" fill="url(#pvcBlue)" stroke="#60a5fa" stroke-width="1.5"/>
+    <text x="50" y="-30" fill="#38bdf8" font-size="14" font-weight="bold">② 4-FOOT VERTICAL 2" PVC RISER</text>
+    <text x="50" y="-10" fill="#94a3b8" font-size="12">Elevates water from buried trench (-2.5')</text>
+    <text x="50" y="10" fill="#94a3b8" font-size="12">to waist height (+4.0') for ergonomic operation</text>
+    <line x1="40" y1="-20" x2="20" y2="-20" stroke="#38bdf8" stroke-width="1.5"/>
+  </g>
+
+  <!-- 4. Overhead 2" Double-Tee Manifold at +4.0' -->
+  <g transform="translate(680, 290)" filter="url(#shadow)">
+    <!-- Central Tee Body -->
+    <rect x="-35" y="-25" width="70" height="50" rx="8" fill="#1d4ed8" stroke="#93c5fd" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="18" fill="#3b82f6"/>
+    <text x="0" y="6" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">2" TEE</text>
+    <text x="0" y="-45" fill="#38bdf8" font-size="16" font-weight="bold" text-anchor="middle">③ OVERHEAD 2" SPLIT TEE (+4.0' ELEV.)</text>
+    <text x="0" y="-28" fill="#cbd5e1" font-size="12" text-anchor="middle">Splits Mainline Flow into South &amp; North Sublines</text>
+  </g>
+
+  <!-- 5. SOUTH WING (LEFT SIDE) - PLOT A (50mm / 1.5") -->
+  <g transform="translate(480, 290)" filter="url(#shadow)">
+    <!-- Reducer: 2" to 1.5" -->
+    <polygon points="120,-18 70,-14 70,14 120,18" fill="#2563eb" stroke="#93c5fd" stroke-width="2"/>
+    <text x="95" y="-28" fill="#38bdf8" font-size="12" text-anchor="middle">2"x1.5" Reducer</text>
+
+    <!-- 50mm Plain Ball Valve -->
+    <rect x="-25" y="-20" width="70" height="40" rx="6" fill="#334155" stroke="#64748b" stroke-width="2"/>
+    <!-- Red valve handle -->
+    <rect x="-10" y="-42" width="40" height="16" rx="4" fill="url(#valveRed)" stroke="#fca5a5" stroke-width="1.5"/>
+    <circle cx="10" cy="-20" r="6" fill="#dc2626"/>
+    <text x="10" y="6" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">50mm VALVE</text>
+    <text x="10" y="-52" fill="#ef4444" font-size="13" font-weight="bold" text-anchor="middle">④ 50mm BALL VALVE</text>
+
+    <!-- 90 Degree Elbow Down -->
+    <rect x="-95" y="-20" width="50" height="40" rx="6" fill="#1d4ed8" stroke="#93c5fd" stroke-width="2"/>
+    <circle cx="-70" cy="0" r="12" fill="#3b82f6"/>
+    <text x="-70" y="-28" fill="#38bdf8" font-size="12" text-anchor="middle">1.5" Elbow</text>
+
+    <!-- Vertical Drop Pipe into South Trench -->
+    <rect x="-82" y="30" width="24" height="380" rx="4" fill="url(#pvcGreen)" stroke="#34d399" stroke-width="1.5"/>
+    <text x="-95" y="220" fill="#34d399" font-size="13" font-weight="bold" text-anchor="end">⑤ 1.5" VERTICAL DROP (6 FT)</text>
+    <line x1="-90" y1="215" x2="-80" y2="215" stroke="#34d399" stroke-width="1.5"/>
+
+    <!-- Bottom Elbow in Trench -->
+    <g transform="translate(-70, 430)">
+      <rect x="-25" y="-15" width="40" height="35" rx="6" fill="#047857" stroke="#34d399" stroke-width="2"/>
+      <circle cx="-5" cy="2" r="10" fill="#10b981"/>
+      <text x="-35" y="5" fill="#34d399" font-size="12" text-anchor="end">1.5" Elbow</text>
+      <!-- Subline Arm South -->
+      <rect x="-250" y="-12" width="225" height="24" rx="4" fill="url(#pvcGreen)" stroke="#34d399" stroke-width="1.5"/>
+      <text x="-140" y="5" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">1.5" (50mm) SUBLINE (15 FT SOUTH)</text>
+
+      <!-- Flush Valve on South Arm -->
+      <g transform="translate(-250, 0)">
+        <circle cx="0" cy="0" r="14" fill="url(#valveRed)" stroke="#fca5a5" stroke-width="1.5"/>
+        <line x1="0" y1="-14" x2="0" y2="-50" stroke="#f87171" stroke-width="2"/>
+        <rect x="-25" y="-70" width="50" height="20" rx="4" fill="#991b1b" stroke="#f87171" stroke-width="1.5"/>
+        <text x="0" y="-56" fill="#fef2f2" font-size="10" font-weight="bold" text-anchor="middle">FLUSH</text>
+        <text x="-35" y="-20" fill="#f87171" font-size="12" font-weight="bold" text-anchor="end">⑥ 50mm FLUSH VALVE</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- 6. NORTH WING (RIGHT SIDE) - PLOT B (40mm / 1.25") -->
+  <g transform="translate(880, 290)" filter="url(#shadow)">
+    <!-- Reducer: 2" to 1.25" -->
+    <polygon points="-120,-18 -70,-12 -70,12 -120,18" fill="#2563eb" stroke="#93c5fd" stroke-width="2"/>
+    <text x="-95" y="-28" fill="#38bdf8" font-size="12" text-anchor="middle">2"x1.25" Reducer</text>
+
+    <!-- 40mm Plain Ball Valve -->
+    <rect x="-45" y="-18" width="65" height="36" rx="6" fill="#334155" stroke="#64748b" stroke-width="2"/>
+    <!-- Red valve handle -->
+    <rect x="-30" y="-38" width="36" height="14" rx="4" fill="url(#valveRed)" stroke="#fca5a5" stroke-width="1.5"/>
+    <circle cx="-12" cy="-18" r="5" fill="#dc2626"/>
+    <text x="-12" y="6" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">40mm VALVE</text>
+    <text x="-12" y="-48" fill="#ef4444" font-size="13" font-weight="bold" text-anchor="middle">④ 40mm BALL VALVE</text>
+
+    <!-- 90 Degree Elbow Down -->
+    <rect x="45" y="-18" width="45" height="36" rx="6" fill="#1d4ed8" stroke="#93c5fd" stroke-width="2"/>
+    <circle cx="68" cy="0" r="10" fill="#3b82f6"/>
+    <text x="68" y="-28" fill="#38bdf8" font-size="12" text-anchor="middle">1.25" Elbow</text>
+
+    <!-- Vertical Drop Pipe into North Trench -->
+    <rect x="58" y="30" width="20" height="380" rx="4" fill="url(#pvcOrange)" stroke="#fb923c" stroke-width="1.5"/>
+    <text x="95" y="220" fill="#fb923c" font-size="13" font-weight="bold" text-anchor="start">⑤ 1.25" VERTICAL DROP (6 FT)</text>
+    <line x1="80" y1="215" x2="90" y2="215" stroke="#fb923c" stroke-width="1.5"/>
+
+    <!-- Bottom Elbow in Trench -->
+    <g transform="translate(68, 430)">
+      <rect x="-15" y="-12" width="35" height="30" rx="6" fill="#c2410c" stroke="#fb923c" stroke-width="2"/>
+      <circle cx="2" cy="3" r="8" fill="#ea580c"/>
+      <text x="35" y="5" fill="#fb923c" font-size="12" text-anchor="start">1.25" Elbow</text>
+      <!-- Subline Arm North -->
+      <rect x="25" y="-10" width="270" height="20" rx="4" fill="url(#pvcOrange)" stroke="#fb923c" stroke-width="1.5"/>
+      <text x="160" y="5" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">1.25" (40mm) SUBLINE (32 FT NORTH)</text>
+
+      <!-- Flush Valve on North Arm -->
+      <g transform="translate(295, 0)">
+        <circle cx="0" cy="0" r="12" fill="url(#valveRed)" stroke="#fca5a5" stroke-width="1.5"/>
+        <line x1="0" y1="-12" x2="0" y2="-50" stroke="#f87171" stroke-width="2"/>
+        <rect x="-25" y="-70" width="50" height="20" rx="4" fill="#991b1b" stroke="#f87171" stroke-width="1.5"/>
+        <text x="0" y="-56" fill="#fef2f2" font-size="10" font-weight="bold" text-anchor="middle">FLUSH</text>
+        <text x="35" y="-20" fill="#f87171" font-size="12" font-weight="bold" text-anchor="start">⑥ 40mm FLUSH VALVE</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SUMMARY INFO CARDS AT BOTTOM -->
+  <g transform="translate(60, 860)">
+    <rect x="0" y="0" width="600" height="65" rx="8" fill="#1e293b" stroke="#047857" stroke-width="1.5"/>
+    <text x="20" y="26" fill="#34d399" font-size="14" font-weight="bold">PLOT A CONFIGURATION (EAST FIELD — PKM-1)</text>
+    <text x="20" y="48" fill="#94a3b8" font-size="12">50mm Plain Ball Valves (8 nos) • 50x16x2-Way Collars (24 nos) • 16x4x40 Inline (2,926m)</text>
+  </g>
+  <g transform="translate(740, 860)">
+    <rect x="0" y="0" width="600" height="65" rx="8" fill="#1e293b" stroke="#c2410c" stroke-width="1.5"/>
+    <text x="20" y="26" fill="#fb923c" font-size="14" font-weight="bold">PLOT B CONFIGURATION (WEST FIELD — BHAGYA)</text>
+    <text x="20" y="48" fill="#94a3b8" font-size="12">40mm Plain Ball Valves (8 nos) • 40x16x1-Way Collars (32 nos) • 16mm Plain + Drippers (1,610m)</text>
+  </g>
+</svg>

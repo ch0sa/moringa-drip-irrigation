@@ -1,0 +1,996 @@
+%PDF-1.7
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Producer (GridCraft PDF) /Creator (GridCraft) /Title (Moringa_Irrigation_BOM_and_Schedule.xlsx) >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 10719 >>
+stream
+q
+50.4 483 384 255 re W n
+q
+50.4 723 384 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 726.92 Tm
+/F1 11 Tf
+(FIELD EXECUTION SCHEDULE: RISER TAPE MEASURES & PIPE CUT-LIST) Tj
+ET
+Q
+q
+50.4 708 384 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 711.92 Tm
+/F1 11 Tf
+(Exact field dimensions from reference origins for excavation, plumbing, and riser assembly) Tj
+ET
+Q
+q
+50.4 678 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 681.92 Tm
+/F1 11 Tf
+(Station Code) Tj
+ET
+Q
+q
+98.4 678 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 681.92 Tm
+/F1 11 Tf
+(Reference Origin) Tj
+ET
+Q
+q
+146.4 678 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 147.9 681.92 Tm
+/F1 11 Tf
+(Tape Measure Offset \(ft\)) Tj
+ET
+Q
+q
+194.4 678 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 681.92 Tm
+/F1 11 Tf
+(Global CAD \(X, Y\)) Tj
+ET
+Q
+q
+242.4 678 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 681.92 Tm
+/F1 11 Tf
+(Zone / Subline Arm) Tj
+ET
+Q
+q
+290.4 678 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 681.92 Tm
+/F1 11 Tf
+(Trench / Row Spacing) Tj
+ET
+Q
+q
+338.4 678 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 681.92 Tm
+/F1 11 Tf
+(Covered Range \(Y\)) Tj
+ET
+Q
+q
+386.4 678 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 681.92 Tm
+/F1 11 Tf
+(Pipe Cut Lengths Required) Tj
+ET
+Q
+q
+50.4 663 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 666.92 Tm
+/F1 11 Tf
+(Tee A) Tj
+ET
+Q
+q
+98.4 663 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 666.92 Tm
+/F1 11 Tf
+(Plot A Center Entry) Tj
+ET
+Q
+q
+146.4 663 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 186.784 666.92 Tm
+/F1 11 Tf
+(0) Tj
+ET
+Q
+q
+194.4 663 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 666.92 Tm
+/F1 11 Tf
+(\(500, 100\)) Tj
+ET
+Q
+q
+242.4 663 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 666.92 Tm
+/F1 11 Tf
+(Plot A Center Mainline Start) Tj
+ET
+Q
+q
+290.4 663 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 666.92 Tm
+/F1 11 Tf
+(Mainline Entry) Tj
+ET
+Q
+q
+338.4 663 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 666.92 Tm
+/F1 11 Tf
+(Y = 100) Tj
+ET
+Q
+q
+386.4 663 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 666.92 Tm
+/F1 11 Tf
+(215 ft West from Tee B; 90 ft East from Corner) Tj
+ET
+Q
+q
+50.4 648 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 651.92 Tm
+/F1 11 Tf
+(Riser A1) Tj
+ET
+Q
+q
+98.4 648 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 651.92 Tm
+/F1 11 Tf
+(Tee A \(500, 100\)) Tj
+ET
+Q
+q
+146.4 648 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 180.668 651.92 Tm
+/F1 11 Tf
+(30) Tj
+ET
+Q
+q
+194.4 648 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 651.92 Tm
+/F1 11 Tf
+(\(500, 130\)) Tj
+ET
+Q
+q
+242.4 648 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 651.92 Tm
+/F1 11 Tf
+(Plot A Arms 1 & 2) Tj
+ET
+Q
+q
+290.4 648 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 651.92 Tm
+/F1 11 Tf
+(5 ft Trench Spacing) Tj
+ET
+Q
+q
+338.4 648 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 651.92 Tm
+/F1 11 Tf
+(Y = 115 to 145) Tj
+ET
+Q
+q
+386.4 648 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 651.92 Tm
+/F1 11 Tf
+(1x 4ft 2" Riser; 2x 4ft 1.5" Drops; 2x 15ft 1.5" Sublines) Tj
+ET
+Q
+q
+50.4 633 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 636.92 Tm
+/F1 11 Tf
+(Riser A2) Tj
+ET
+Q
+q
+98.4 633 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 636.92 Tm
+/F1 11 Tf
+(Tee A \(500, 100\)) Tj
+ET
+Q
+q
+146.4 633 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 180.668 636.92 Tm
+/F1 11 Tf
+(60) Tj
+ET
+Q
+q
+194.4 633 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 636.92 Tm
+/F1 11 Tf
+(\(500, 160\)) Tj
+ET
+Q
+q
+242.4 633 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 636.92 Tm
+/F1 11 Tf
+(Plot A Arms 3 & 4) Tj
+ET
+Q
+q
+290.4 633 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 636.92 Tm
+/F1 11 Tf
+(5 ft Trench Spacing) Tj
+ET
+Q
+q
+338.4 633 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 636.92 Tm
+/F1 11 Tf
+(Y = 145 to 175) Tj
+ET
+Q
+q
+386.4 633 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 636.92 Tm
+/F1 11 Tf
+(1x 4ft 2" Riser; 2x 4ft 1.5" Drops; 2x 15ft 1.5" Sublines) Tj
+ET
+Q
+q
+50.4 618 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 621.92 Tm
+/F1 11 Tf
+(Riser A3) Tj
+ET
+Q
+q
+98.4 618 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 621.92 Tm
+/F1 11 Tf
+(Tee A \(500, 100\)) Tj
+ET
+Q
+q
+146.4 618 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 180.668 621.92 Tm
+/F1 11 Tf
+(90) Tj
+ET
+Q
+q
+194.4 618 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 621.92 Tm
+/F1 11 Tf
+(\(500, 190\)) Tj
+ET
+Q
+q
+242.4 618 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 621.92 Tm
+/F1 11 Tf
+(Plot A Arms 5 & 6) Tj
+ET
+Q
+q
+290.4 618 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 621.92 Tm
+/F1 11 Tf
+(5 ft Trench Spacing) Tj
+ET
+Q
+q
+338.4 618 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 621.92 Tm
+/F1 11 Tf
+(Y = 175 to 205) Tj
+ET
+Q
+q
+386.4 618 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 621.92 Tm
+/F1 11 Tf
+(1x 4ft 2" Riser; 2x 4ft 1.5" Drops; 2x 15ft 1.5" Sublines) Tj
+ET
+Q
+q
+50.4 603 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 606.92 Tm
+/F1 11 Tf
+(Riser A4) Tj
+ET
+Q
+q
+98.4 603 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 606.92 Tm
+/F1 11 Tf
+(Tee A \(500, 100\)) Tj
+ET
+Q
+q
+146.4 603 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 174.552 606.92 Tm
+/F1 11 Tf
+(120) Tj
+ET
+Q
+q
+194.4 603 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 606.92 Tm
+/F1 11 Tf
+(\(500, 220\)) Tj
+ET
+Q
+q
+242.4 603 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 606.92 Tm
+/F1 11 Tf
+(Plot A Arms 7 & 8) Tj
+ET
+Q
+q
+290.4 603 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 606.92 Tm
+/F1 11 Tf
+(5 ft Trench Spacing) Tj
+ET
+Q
+q
+338.4 603 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 606.92 Tm
+/F1 11 Tf
+(Y = 205 to 235) Tj
+ET
+Q
+q
+386.4 603 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 606.92 Tm
+/F1 11 Tf
+(1x 4ft 2" Riser; 2x 4ft 1.5" Drops; 2x 15ft 1.5" Sublines) Tj
+ET
+Q
+q
+50.4 588 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 591.92 Tm
+/F1 11 Tf
+(End Cap A) Tj
+ET
+Q
+q
+98.4 588 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 591.92 Tm
+/F1 11 Tf
+(Tee A \(500, 100\)) Tj
+ET
+Q
+q
+146.4 588 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 174.552 591.92 Tm
+/F1 11 Tf
+(145) Tj
+ET
+Q
+q
+194.4 588 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 591.92 Tm
+/F1 11 Tf
+(\(500, 245\)) Tj
+ET
+Q
+q
+242.4 588 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 591.92 Tm
+/F1 11 Tf
+(Plot A Mainline Terminal) Tj
+ET
+Q
+q
+290.4 588 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 591.92 Tm
+/F1 11 Tf
+(Terminal End) Tj
+ET
+Q
+q
+338.4 588 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 591.92 Tm
+/F1 11 Tf
+(Y = 245) Tj
+ET
+Q
+q
+386.4 588 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 591.92 Tm
+/F1 11 Tf
+(1x 2" End Cap on 25ft mainline tail past Riser A4) Tj
+ET
+Q
+q
+50.4 558 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 561.92 Tm
+/F1 11 Tf
+(Tee B) Tj
+ET
+Q
+q
+98.4 558 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 561.92 Tm
+/F1 11 Tf
+(Plot B Entry Corner) Tj
+ET
+Q
+q
+146.4 558 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 186.784 561.92 Tm
+/F1 11 Tf
+(0) Tj
+ET
+Q
+q
+194.4 558 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 561.92 Tm
+/F1 11 Tf
+(\(285, 100\)) Tj
+ET
+Q
+q
+242.4 558 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 561.92 Tm
+/F1 11 Tf
+(Plot B East Boundary Start) Tj
+ET
+Q
+q
+290.4 558 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 561.92 Tm
+/F1 11 Tf
+(Mainline Entry) Tj
+ET
+Q
+q
+338.4 558 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 561.92 Tm
+/F1 11 Tf
+(Y = 100) Tj
+ET
+Q
+q
+386.4 558 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 561.92 Tm
+/F1 11 Tf
+(Connected to Tee A via 215 ft 2" pipe) Tj
+ET
+Q
+q
+50.4 543 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 546.92 Tm
+/F1 11 Tf
+(Riser B1) Tj
+ET
+Q
+q
+98.4 543 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 546.92 Tm
+/F1 11 Tf
+(Tee B \(285, 100\)) Tj
+ET
+Q
+q
+146.4 543 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 180.668 546.92 Tm
+/F1 11 Tf
+(24) Tj
+ET
+Q
+q
+194.4 543 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 546.92 Tm
+/F1 11 Tf
+(\(285, 124\)) Tj
+ET
+Q
+q
+242.4 543 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 546.92 Tm
+/F1 11 Tf
+(Plot B Arms 1 & 2) Tj
+ET
+Q
+q
+290.4 543 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 546.92 Tm
+/F1 11 Tf
+(8 ft Row Spacing) Tj
+ET
+Q
+q
+338.4 543 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 546.92 Tm
+/F1 11 Tf
+(Y = 92 to 156) Tj
+ET
+Q
+q
+386.4 543 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 546.92 Tm
+/F1 11 Tf
+(1x 4ft 2" Riser; 2x 4ft 1.25" Drops; 2x 32ft 1.25" Sublines) Tj
+ET
+Q
+q
+50.4 528 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 531.92 Tm
+/F1 11 Tf
+(Riser B2) Tj
+ET
+Q
+q
+98.4 528 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 531.92 Tm
+/F1 11 Tf
+(Tee B \(285, 100\)) Tj
+ET
+Q
+q
+146.4 528 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 180.668 531.92 Tm
+/F1 11 Tf
+(88) Tj
+ET
+Q
+q
+194.4 528 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 531.92 Tm
+/F1 11 Tf
+(\(285, 188\)) Tj
+ET
+Q
+q
+242.4 528 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 531.92 Tm
+/F1 11 Tf
+(Plot B Arms 3 & 4) Tj
+ET
+Q
+q
+290.4 528 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 531.92 Tm
+/F1 11 Tf
+(8 ft Row Spacing) Tj
+ET
+Q
+q
+338.4 528 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 531.92 Tm
+/F1 11 Tf
+(Y = 156 to 220) Tj
+ET
+Q
+q
+386.4 528 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 531.92 Tm
+/F1 11 Tf
+(1x 4ft 2" Riser; 2x 4ft 1.25" Drops; 2x 32ft 1.25" Sublines) Tj
+ET
+Q
+q
+50.4 513 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 516.92 Tm
+/F1 11 Tf
+(Riser B3) Tj
+ET
+Q
+q
+98.4 513 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 516.92 Tm
+/F1 11 Tf
+(Tee B \(285, 100\)) Tj
+ET
+Q
+q
+146.4 513 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 174.552 516.92 Tm
+/F1 11 Tf
+(152) Tj
+ET
+Q
+q
+194.4 513 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 516.92 Tm
+/F1 11 Tf
+(\(285, 252\)) Tj
+ET
+Q
+q
+242.4 513 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 516.92 Tm
+/F1 11 Tf
+(Plot B Arms 5 & 6) Tj
+ET
+Q
+q
+290.4 513 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 516.92 Tm
+/F1 11 Tf
+(8 ft Row Spacing) Tj
+ET
+Q
+q
+338.4 513 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 516.92 Tm
+/F1 11 Tf
+(Y = 220 to 284) Tj
+ET
+Q
+q
+386.4 513 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 516.92 Tm
+/F1 11 Tf
+(1x 4ft 2" Riser; 2x 4ft 1.25" Drops; 2x 32ft 1.25" Sublines) Tj
+ET
+Q
+q
+50.4 498 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 501.92 Tm
+/F1 11 Tf
+(Riser B4) Tj
+ET
+Q
+q
+98.4 498 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 501.92 Tm
+/F1 11 Tf
+(Tee B \(285, 100\)) Tj
+ET
+Q
+q
+146.4 498 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 174.552 501.92 Tm
+/F1 11 Tf
+(216) Tj
+ET
+Q
+q
+194.4 498 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 501.92 Tm
+/F1 11 Tf
+(\(285, 316\)) Tj
+ET
+Q
+q
+242.4 498 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 501.92 Tm
+/F1 11 Tf
+(Plot B Arms 7 & 8) Tj
+ET
+Q
+q
+290.4 498 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 501.92 Tm
+/F1 11 Tf
+(8 ft Row Spacing) Tj
+ET
+Q
+q
+338.4 498 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 501.92 Tm
+/F1 11 Tf
+(Y = 284 to 348) Tj
+ET
+Q
+q
+386.4 498 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 501.92 Tm
+/F1 11 Tf
+(1x 4ft 2" Riser; 2x 4ft 1.25" Drops; 2x 32ft 1.25" Sublines) Tj
+ET
+Q
+q
+50.4 483 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 51.9 486.92 Tm
+/F1 11 Tf
+(End Cap B) Tj
+ET
+Q
+q
+98.4 483 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 99.9 486.92 Tm
+/F1 11 Tf
+(Tee B \(285, 100\)) Tj
+ET
+Q
+q
+146.4 483 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 174.552 486.92 Tm
+/F1 11 Tf
+(240) Tj
+ET
+Q
+q
+194.4 483 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 195.9 486.92 Tm
+/F1 11 Tf
+(\(285, 340\)) Tj
+ET
+Q
+q
+242.4 483 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 243.9 486.92 Tm
+/F1 11 Tf
+(Plot B Mainline Terminal) Tj
+ET
+Q
+q
+290.4 483 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 291.9 486.92 Tm
+/F1 11 Tf
+(Terminal End) Tj
+ET
+Q
+q
+338.4 483 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 339.9 486.92 Tm
+/F1 11 Tf
+(Y = 340) Tj
+ET
+Q
+q
+386.4 483 48 15 re W n
+BT
+0 0 0 rg
+1 0 0 1 387.9 486.92 Tm
+/F1 11 Tf
+(1x 2" End Cap on 24ft mainline tail past Riser B4) Tj
+ET
+Q
+Q
+q
+50.4 483 384 255 re W n
+Q
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /ProcSet [/PDF /Text /ImageB /ImageC] /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000239 00000 n 
+0000000336 00000 n 
+0000011107 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R /Info 3 0 R >>
+startxref
+11271
+%%EOF

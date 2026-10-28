@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 950" width="1400" height="950" style="background:#0b1329; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="pvc50" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="40%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <linearGradient id="pvc40" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c2410c"/>
+      <stop offset="40%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="lldpeBlack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="40%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- TITLE BLOCK -->
+  <rect x="40" y="30" width="1320" height="85" rx="12" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <text x="70" y="68" fill="#38bdf8" font-size="24" font-weight="bold">LATERAL TAKE-OFF &amp; DRIP EMITTER ENGINEERING DETAILS</text>
+  <text x="70" y="96" fill="#94a3b8" font-size="14">COMPARATIVE CROSS-SECTIONS: PLOT A (2-WAY INLINE) VS. PLOT B (1-WAY ONLINE TUNNING DRIPPER)</text>
+
+  <!-- LEFT PANEL: PLOT A (50x16x2-WAY TAKE-OFF) -->
+  <g transform="translate(60, 145)">
+    <rect x="0" y="0" width="620" height="740" rx="12" fill="#132238" stroke="#10b981" stroke-width="2" filter="url(#glow)"/>
+    <rect x="0" y="0" width="620" height="50" rx="12" fill="#064e3b"/>
+    <text x="310" y="32" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">PLOT A: 50x16x2-WAY TAKE-OFF COLLAR (V-CONNECTOR)</text>
+
+    <!-- Subline pipe (50mm / 1.5") Cross section -->
+    <g transform="translate(310, 260)">
+      <circle cx="0" cy="0" r="85" fill="url(#pvc50)" stroke="#6ee7b7" stroke-width="3"/>
+      <circle cx="0" cy="0" r="70" fill="#0f172a" stroke="#047857" stroke-width="2"/>
+      <text x="0" y="-5" fill="#34d399" font-size="18" font-weight="bold" text-anchor="middle">50mm (1.5") PVC</text>
+      <text x="0" y="20" fill="#a7f3d0" font-size="13" text-anchor="middle">Buried Subline Arm</text>
+
+      <!-- Drilled hole at top (16mm hole with grommet) -->
+      <rect x="-16" y="-87" width="32" height="17" rx="3" fill="#000000" stroke="#facc15" stroke-width="2"/>
+      <text x="0" y="-100" fill="#facc15" font-size="12" font-weight="bold" text-anchor="middle">16mm Precision Drill + Rubber Grommet</text>
+
+      <!-- 50x16x2-Way Collar Saddle (Clamps around pipe) -->
+      <path d="M-85,-20 A95,95 0 0,1 85,-20 L95,-10 A105,105 0 0,0 -95,-10 Z" fill="#0284c7" stroke="#38bdf8" stroke-width="1.5"/>
+      <rect x="-18" y="-120" width="36" height="35" rx="4" fill="#0284c7" stroke="#38bdf8" stroke-width="2"/>
+
+      <!-- 2-Way V-Split Outlets (East & West) -->
+      <!-- West Outlet (Left) -->
+      <path d="M-12,-115 L-90,-180 L-100,-170 L-18,-105 Z" fill="#0369a1" stroke="#38bdf8" stroke-width="1.5"/>
+      <rect x="-240" y="-195" width="150" height="24" rx="4" fill="url(#lldpeBlack)" stroke="#38bdf8" stroke-width="2"/>
+      <text x="-165" y="-178" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">16mm Inline (West 195')</text>
+
+      <!-- East Outlet (Right) -->
+      <path d="M12,-115 L90,-180 L100,-170 L18,-105 Z" fill="#0369a1" stroke="#38bdf8" stroke-width="1.5"/>
+      <rect x="90" y="-195" width="150" height="24" rx="4" fill="url(#lldpeBlack)" stroke="#38bdf8" stroke-width="2"/>
+      <text x="165" y="-178" fill="#38bdf8" font-size="12" font-weight="bold" text-anchor="middle">16mm Inline (East 195')</text>
+    </g>
+
+    <!-- INLINE DRIPPER CUTAWAY -->
+    <g transform="translate(310, 480)">
+      <rect x="-260" y="0" width="520" height="90" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+      <text x="-240" y="28" fill="#38bdf8" font-size="14" font-weight="bold">16x4x40 INLINE DRIP TUBE INTERNAL STRUCTURE</text>
+      <!-- Pipe outer -->
+      <rect x="-240" y="42" width="480" height="34" rx="4" fill="#020617" stroke="#475569" stroke-width="1.5"/>
+      <!-- Built-in Cylindrical Labyrinth Dripper -->
+      <rect x="-60" y="46" width="120" height="26" rx="3" fill="#0284c7" stroke="#38bdf8" stroke-width="1.5"/>
+      <line x1="-50" y1="59" x2="50" y2="59" stroke="#93c5fd" stroke-width="2" stroke-dasharray="4 3"/>
+      <!-- Water exit hole -->
+      <circle cx="0" cy="42" r="3" fill="#38bdf8"/>
+      <!-- Water drops -->
+      <circle cx="0" cy="30" r="3" fill="#60a5fa"/>
+      <circle cx="0" cy="18" r="4" fill="#93c5fd"/>
+      <text x="75" y="64" fill="#e2e8f0" font-size="11">4 LPH Emitter @ 40cm</text>
+      <text x="-240" y="64" fill="#94a3b8" font-size="11">Turbulent Flow Labyrinth</text>
+    </g>
+
+    <!-- SPECS TABLE -->
+    <g transform="translate(40, 600)">
+      <text x="0" y="0" fill="#10b981" font-size="14" font-weight="bold">KEY SPECIFICATIONS &amp; QUANTITIES:</text>
+      <text x="0" y="24" fill="#cbd5e1" font-size="13">• Collar Model: 50x16x2 Way Take of Coller (Item #9) — 24 used (1 spare)</text>
+      <text x="0" y="46" fill="#cbd5e1" font-size="13">• Drip Pipe: 16x4x40 Inline Pipe (Item #8) — 2,926m used (3,000m roll ordered)</text>
+      <text x="0" y="68" fill="#cbd5e1" font-size="13">• Spacing: 5 ft between trenches • 40cm dripper spacing • 3 ft plant spacing</text>
+      <text x="0" y="90" fill="#cbd5e1" font-size="13">• End Fittings: 16mm Endcap (Item #4) — 48 nos used (24 West + 24 East)</text>
+      <text x="0" y="112" fill="#34d399" font-size="13" font-weight="bold">• Total Plants Fed: 3,000 PKM-1 Moringa trees</text>
+    </g>
+  </g>
+
+  <!-- RIGHT PANEL: PLOT B (40x16x1-WAY TAKE-OFF) -->
+  <g transform="translate(720, 145)">
+    <rect x="0" y="0" width="620" height="740" rx="12" fill="#1c1917" stroke="#f97316" stroke-width="2" filter="url(#glow)"/>
+    <rect x="0" y="0" width="620" height="50" rx="12" fill="#7c2d12"/>
+    <text x="310" y="32" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">PLOT B: 40x16x1-WAY TAKE-OFF COLLAR &amp; ON-LINE DRIPPER</text>
+
+    <!-- Subline pipe (40mm / 1.25") Cross section -->
+    <g transform="translate(420, 260)">
+      <circle cx="0" cy="0" r="70" fill="url(#pvc40)" stroke="#fdba74" stroke-width="3"/>
+      <circle cx="0" cy="0" r="56" fill="#0f172a" stroke="#c2410c" stroke-width="2"/>
+      <text x="0" y="-5" fill="#fb923c" font-size="17" font-weight="bold" text-anchor="middle">40mm (1.25") PVC</text>
+      <text x="0" y="18" fill="#fed7aa" font-size="12" text-anchor="middle">Buried Subline Arm</text>
+
+      <!-- 40x16x1-Way Collar Clamp -->
+      <path d="M-70,-15 A78,78 0 0,1 70,-15 L80,-5 A88,88 0 0,0 -80,-5 Z" fill="#ea580c" stroke="#fdba74" stroke-width="1.5"/>
+
+      <!-- 1-Way Takeoff Outlet pointing WEST ONLY (to the left) -->
+      <rect x="-140" y="-15" width="80" height="30" rx="4" fill="#c2410c" stroke="#fdba74" stroke-width="2"/>
+      <text x="-100" y="-22" fill="#facc15" font-size="11" font-weight="bold" text-anchor="middle">40x16x1-Way TF Collar</text>
+
+      <!-- 16mm Plain Pipe Running West -->
+      <rect x="-350" y="-12" width="210" height="24" rx="4" fill="url(#lldpeBlack)" stroke="#fb923c" stroke-width="2"/>
+      <text x="-245" y="4" fill="#fed7aa" font-size="12" font-weight="bold" text-anchor="middle">16mm Plain Pipe (West 165')</text>
+    </g>
+
+    <!-- PUNCHING TOOL & TUNNING DRIPPER ASSEMBLY DETAIL -->
+    <g transform="translate(310, 480)">
+      <rect x="-260" y="0" width="520" height="90" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+      <text x="-240" y="28" fill="#fb923c" font-size="14" font-weight="bold">ON-SITE PUNCHING &amp; TUNNING DRIPPER (P) INSTALLATION</text>
+      
+      <!-- 16mm Plain Pipe Section -->
+      <rect x="-240" y="42" width="480" height="34" rx="4" fill="#020617" stroke="#475569" stroke-width="1.5"/>
+      
+      <!-- Punched On-line Tunning Dripper -->
+      <g transform="translate(0, 42)">
+        <!-- Barb inserted into pipe -->
+        <polygon points="-4,0 4,0 2,12 -2,12" fill="#f59e0b"/>
+        <!-- Dripper body -->
+        <rect x="-14" y="-26" width="28" height="26" rx="4" fill="#ea580c" stroke="#fdba74" stroke-width="1.5"/>
+        <circle cx="0" cy="-13" r="6" fill="#facc15"/>
+        <text x="25" y="-10" fill="#facc15" font-size="11" font-weight="bold">Tunning Dripper (P)</text>
+        <text x="25" y="6" fill="#fed7aa" font-size="10">Adjustable 0-70 LPH @ 7 ft spacing</text>
+      </g>
+
+      <!-- Punching Tool representation -->
+      <g transform="translate(-160, 42)">
+        <rect x="-6" y="-30" width="12" height="25" rx="2" fill="#3b82f6" stroke="#93c5fd" stroke-width="1"/>
+        <polygon points="-3,-5 3,-5 0,0" fill="#e2e8f0"/>
+        <text x="0" y="-35" fill="#93c5fd" font-size="10" text-anchor="middle">Punch Tool</text>
+      </g>
+    </g>
+
+    <!-- SPECS TABLE -->
+    <g transform="translate(40, 600)">
+      <text x="0" y="0" fill="#f97316" font-size="14" font-weight="bold">KEY SPECIFICATIONS &amp; QUANTITIES:</text>
+      <text x="0" y="24" fill="#cbd5e1" font-size="13">• Collar Model: 40x16x1Way TF Coller (Item #6) — 32 used (3 spare)</text>
+      <text x="0" y="46" fill="#cbd5e1" font-size="13">• Plain Pipe: 16mm Pipe Mtrs (Item #1) — 1,610m used (2,000m roll ordered)</text>
+      <text x="0" y="68" fill="#cbd5e1" font-size="13">• Drippers: Tunning Dripper (P) (Item #2) — 768 used (800 nos ordered / 32 spare)</text>
+      <text x="0" y="90" fill="#cbd5e1" font-size="13">• Punching: 3mm Hole via Punching Tool (Item #3) — 5 tools for field crew</text>
+      <text x="0" y="112" fill="#fb923c" font-size="13" font-weight="bold">• Total Plants Fed: 750 Bhagya Moringa trees (7x8ft commercial grid)</text>
+    </g>
+  </g>
+</svg>
